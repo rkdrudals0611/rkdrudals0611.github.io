@@ -10,7 +10,7 @@ published: true
 sitemap: true
 ---
 
-# 문자 관련 스타일 / 문단 관련 스타일
+# 문자 관련 스타일
 
 [링크](https://rkdrudals0611.github.io/)
 <https://rkdrudals0611.github.io/>
@@ -61,7 +61,7 @@ CSS에서 폰트와 관련된 속성들은 웹 페이지의 텍스트 스타일�
 
 ## 08. 웹폰트
 
-![web](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/1869854d-685a-4c27-9961-c318ccaf017d)
+![web](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/1869854d-685a-4c27-9961-c318ccaf017d)<br>
 ![webfont](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/ae6ac971-4ab4-4d8a-b9ba-761772bbe713)
 
 웹폰트는 웹 페이지에서 사용자의 로컬 폰트에 의존하지 않고, 웹을 통해 특정 폰트를 불러와 사용할 수 있게 해주는 기술입니다. 이를 통해 디자이너와 개발자는 웹 페이지의 텍스트에 다양하고 일관된 스타일을 적용할 수 있어요. 🌍✨
@@ -165,3 +165,62 @@ offset-y: 그림자의 수직 위치를 지정합니다. 양수 값은 아래쪽
 blur-radius: 그림자의 흐림 반경을 지정합니다. 값이 클수록 흐림이 더 커집니다. 생략 가능하며, 생략할 경우 기본값은 0입니다.
 
 color: 그림자의 색상을 지정합니다. 색상 표기법에 따라 색상을 지정할 수 있습니다.
+
+# 문단 관련 스타일
+
+CSS를 사용하여 문단의 스타일을 지정하는 것은 웹 페이지의 가독성과 디자인을 향상시키는 데 중요합니다. 여기에는 텍스트의 방향, 정렬, 들여쓰기 등을 설정하는 다양한 속성이 포함됩니다. 📝
+
+
+## 01. 텍스트 정렬 (text-align)
+
+![align](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/b1b98d51-72ab-4496-8efa-2dab278dc680)
+
+text-align은 CSS 속성 중 하나로, 텍스트의 수평 정렬 방식을 지정합니다. 이 속성은 블록 요소에 적용되며, 해당 요소 내부의 텍스트 또는 인라인 요소들의 정렬을 조절합니다.
+
+## 02. vertical-align
+
+![vertical](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/3dbe5832-c9b2-47ac-9e55-d35c8e7580f9)
+
+vertical-align 속성은 인라인 요소나 테이블 셀의 수직 정렬을 설정하는 데 사용됩니다. 이 속성을 통해 요소의 수직 위치를 조정할 수 있으며, 텍스트와 이미지 등 다양한 요소에 적용할 수 있습니다. 📐
+
+## 03. text-indent
+
+![indent](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/10391ec6-6cab-4b2b-9375-168ce703305c)
+
+text-indent 속성은 텍스트 블록의 첫 줄에 들여쓰기를 적용하는 CSS 속성입니다. 이 속성을 사용하면 문단의 시작 부분에 공간을 추가하여, 텍스트의 가독성을 높일 수 있습니다. 📖
+
+## 04. word-wrap
+
+![wrap](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/fdaafcfc-dbdf-47b7-961b-d582c0b494ab)
+
+워드 랩(Word-Wrap)은 CSS에서 긴 단어나 URL과 같이 공백 없이 이어진 텍스트가 컨테이너의 너비를 초과할 때 어떻게 처리할지 결정하는 속성입니다. 이 속성은 텍스트가 컨테이너를 벗어나지 않도록 하여 웹 페이지의 가독성을 높이는 데 도움을 줍니다. 📖
+
+## 05. word-break
+
+![break](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/5339fcd5-f7df-48de-b2b4-dede17af0fba)
+
+word-break 속성은 CSS에서 텍스트가 줄의 끝에 도달했을 때 어떻게 단어를 분리할지 결정하는 속성입니다. 이 속성은 특히 다양한 언어로 작성된 텍스트의 줄바꿈 처리에 유용하며, 웹 페이지의 가독성과 레이아웃을 개선하는 데 도움을 줍니다. 📚
+
+## 06. white-space
+
+![white](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/84a8a6d4-b89c-4868-99a2-908b623acf1c)
+
+white-space 속성은 CSS에서 요소 내의 텍스트 흐름과 포맷을 제어하는 데 사용됩니다. 이 속성을 통해 공백, 탭, 줄바꿈과 같은 공백 문자가 요소의 내용 안에서 어떻게 처리될지를 결정할 수 있습니다. 📝
+
+## 07. text-overflow
+
+![overflow](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/c389cd7c-f3df-40a9-9e45-67784da21ac0)
+
+text-overflow 속성은 요소의 내용이 그의 박스를 넘어갈 때 어떻게 보여질지를 결정하는 CSS 속성입니다. 이 속성은 주로 넘치는 텍스트의 처리 방법을 지정하는 데 사용되며, clip과 ellipsis 두 가지 주요 값이 있습니다. 📐
+
+## 08. display
+
+![display](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/597865db-f13b-4e39-917c-1bb34b7ce27b)
+
+display 속성은 HTML 요소가 문서 내에서 어떻게 보여질지 결정하는 중요한 CSS 속성입니다. 이 속성은 요소의 레이아웃 및 박스 유형을 제어하여, 웹 페이지의 전반적인 구조와 디자인에 큰 영향을 미칩니다. 🎨
+
+## 09. visivility
+
+![display](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/597865db-f13b-4e39-917c-1bb34b7ce27b)
+
+display 속성은 HTML 요소가 문서 내에서 어떻게 보여질지 결정하는 중요한 CSS 속성입니다. 이 속성은 요소의 레이아웃 및 박스 유형을 제어하여, 웹 페이지의 전반적인 구조와 디자인에 큰 영향을 미칩니다. 🎨
