@@ -221,6 +221,28 @@ display 속성은 HTML 요소가 문서 내에서 어떻게 보여질지 결정�
 
 ## 09. visivility
 
-![display](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/597865db-f13b-4e39-917c-1bb34b7ce27b)
+![visivility](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/dbb7f323-6885-4ecc-8041-0ebc9c05a1a8)
 
-display 속성은 HTML 요소가 문서 내에서 어떻게 보여질지 결정하는 중요한 CSS 속성입니다. 이 속성은 요소의 레이아웃 및 박스 유형을 제어하여, 웹 페이지의 전반적인 구조와 디자인에 큰 영향을 미칩니다. 🎨
+visibility 속성은 HTML 요소의 가시성을 제어하는 CSS 속성입니다. 이 속성을 사용하면 요소를 보이거나 숨길 수 있으며, 요소가 차지하는 공간은 그대로 유지됩니다. 🕵️‍♂️
+
+아래의 4가지 값을 가지며, 기본 값은 inherit 입니다.
+
+visible: 보임<br>
+hidden: 숨김 (자신의 영역은 계속 차지)<br>
+collapse: 겹치도록 지정(테이블의 행과 열 요소만 지정할 수 있으며, 그 외 요소의 지정하면 hidden으로 해석)<br>
+inherit: 부모 요소의 값을 상속
+
+## 10. overflow
+
+overflow 속성은 요소 내의 컨텐츠가 해당 요소의 크기를 초과할 때, 그 초과하는 부분을 어떻게 처리할지 결정하는 CSS 속성입니다. 이 속성을 통해 컨텐츠의 가시성, 스크롤 가능 여부 등을 제어할 수 있어요. 📜
+
+visible: 기본값으로, 컨텐츠가 요소를 넘어서도 그대로 보여집니다.
+hidden: 컨텐츠가 요소를 넘어서는 부분은 보이지 않습니다.
+scroll: 요소에 스크롤바를 추가하여, 넘치는 컨텐츠를 스크롤하여 볼 수 있습니다.
+auto: 브라우저가 자동으로 넘치는 컨텐츠를 처리하는 방법을 결정합니다. 대부분의 경우, 필요할 때만 스크롤바를 제공합니다.
+
+## 11. opacity
+
+![opacity](https://github.com/rkdrudals0611/rkdrudals0611.github.io/assets/163365659/19694433-6c99-4755-b373-e0bc37b01d63)
+
+opacity 속성은 요소의 투명도를 설정하는 CSS 속성입니다. 이 속성의 값은 0.0부터 1.0 사이로, 0.0은 완전 투명을 의미하고, 1.0은 완전 불투명을 의미해요. opacity 속성을 사용하면 요소의 배경, 텍스트, 테두리 등 모든 내용의 투명도가 조절됩니다. 🌫️
